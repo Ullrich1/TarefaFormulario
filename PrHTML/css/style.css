@@ -1,0 +1,191 @@
+body {
+    margin: auto;
+    padding: 50px;
+    margin-left: 300px;
+}
+div{
+    border: 2px solid gray;
+    width: fit-content;
+    position: relative;
+    
+}
+.divmain {
+    border: 2px solid green;
+    background-color:rgba(119, 182, 123, 0.335);
+    color: green;
+    margin: 3px;
+    display: flex;
+    width: 670px;
+    height: 1000px;
+    
+    
+}
+#caixa1 {
+    border: 2px solid rgba(119, 182, 123, 0.335);
+    color: green;
+    margin: 10px;
+    position: relative;
+    width: 200px;
+    height: 170px;
+    padding-right: 50px;
+}
+#terra{
+    position: relative;
+    bottom: 140px;
+    left: 410px;
+    width: 140px;
+}
+#compu{
+    position: relative;
+    bottom: 260px;
+    left: 110px;
+    width: 140px;
+    z-index: -1;
+}
+#caixa1itens{
+    border: none;
+    margin: 10px;
+    
+}
+#caixa2{
+
+    border: 2px solid rgba(119, 182, 123, 0.335);
+    color: green;
+    margin: 10px;
+    position: relative;
+    top: 22px;
+    height: 170px;
+    padding-right: 20px;
+
+}
+#caixa2itens{
+    border: none;
+    margin: 10px;
+    
+}
+
+#caixa3{
+    border: 2px solid rgba(119, 182, 123, 0.335);
+    color: green;
+    margin: 10px;
+    margin-bottom: 250px;
+    width: 525px;
+    height: 95px;
+    margin-top: 230px;
+    margin-left: -540px;
+}
+#bal{
+    position: relative;
+    bottom: 85px;
+    left: 389px;
+    width: 140px;
+}
+#caixa4{
+    border: 2px solid rgba(119, 182, 123, 0.335);
+    color: green;
+    margin: 10px;
+    position: relative;
+    width: 475px;
+    height: 170px;
+    padding-right: 50px;
+    margin-top: 350px;
+    margin-right: -540px;
+    left: -550px;
+    
+}
+#mulher{
+    position: relative;
+    bottom: 175px;
+    left: 350px;
+    width: 170px;
+}
+#caixa5{
+    position: relative;
+    border: 2px solid rgba(119, 182, 123, 0.335);
+    color: green;
+    margin: 10px;
+    height: 220px;
+    top: 650px;
+    left: -625px;
+    width: 550px;
+    
+}
+#gente{
+    position: relative;
+    bottom: 150px;
+    left: 350px;
+    width: 170px;
+}
+.comentario {
+    width: 600px;
+    border: none;
+    margin: 10px;
+    
+}
+#comment{
+    border: 2px solid rgba(79, 119, 82, 0.577);
+    width: 300px;
+}
+.cadgeral {
+    border: 2px solid rgba(119, 182, 123, 0.335);
+    color: green;
+    margin: 60px;
+    margin-left: 10px;
+    display: flex;
+    height: 560px;
+}
+.legend {
+    border: 2px solid rgba(119, 182, 123, 0.577);
+    width: fit-content;
+    background-color: white;
+    position: relative;
+    top: -13px;
+    left: 10px;
+}
+.itens {
+    border: none;
+    position: relative;
+    left: 10px;
+    
+}
+.itens2 {
+    border: none;
+    margin-left: 200px;
+    margin-top: -75px;
+}
+input{
+    border: 2px solid rgba(62, 91, 64, 0.727);
+    
+}
+.cbox{
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+    border: none;
+}
+.botoes{
+    position: relative;
+    width: auto;
+    height: 20px;
+    top: 900px;
+    left: -1190px;
+    margin: 2px;
+    border: 2px solid rgba(62, 91, 64, 0.727);
+}
+
+#User{
+    width: 200px;
+}
+#Search{
+    width: 205px;
+}
+#email{
+    width: 205px;
+}
+#rua{
+    width: 205px;
+}
+
+textarea {
+    resize: none;
+}

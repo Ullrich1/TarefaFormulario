@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div>
+        <div class="divmain">
+            <img src="img/image-removebg-preview.png" alt="" width="100"height="100" style="opacity:0.4;filter:alpha(opacity=40);">
+            <div class="cadgeral">
+                <form id="cadastrogeral" action="cadastro">
+                    <div class="legend">
+                        <b>
+                            <legend>Cadastro Geral</legend>
+                        </b>
+                    </div>
+                    <div id="caixa1">
+                        
+                        <form id="dadosp">
+                            <div class="legend">
+                                <b>
+                                    <legend>Dados pessoais</legend>
+                                </b>
+                            </div>
+
+                            <div id="caixa1itens">
+                                Nome completo: <br>
+                                <input type="text" id="User" name="Name" /><br><br>
+
+                                Profissão: <br>
+                                <input type="search" placeholder="Sua profissão:" list="options" id="Search">
+                                <datalist id="options">
+                                    <option value="Pedreiro"></option>
+                                    <option value="Engenheiro civil"></option>
+                                </datalist>
+                            </div>
+                            
+                            <img id="terra" src="img/360_F_203948325_Pf2Ou1KEO7IrSiWwWcmmTlnxfvDWvNSB-removebg-preview.png" style="opacity:0.4;filter:alpha(opacity=40);">
+                            <img id="compu" src="img/CoolClips_vc066449.png" style="opacity:0.4;filter:alpha(opacity=40);">
+                        </form>
+                    </div>
+
+                    <div id="caixa2">
+                        <form id="local">
+                            <div class="legend">
+                                <b>
+                                    <legend>Localização</legend>
+                                </b>
+
+                            </div>
+
+                            <div id="caixa2itens">
+                                E-mail: <br>
+                                <input type="email" name="email" id="email" width="10"> <br><br>
+                                Rua: <br>
+                                <input type="text" id="rua">
+                            </div>
+
+                        </form>
+                    </div>
+
+                    <div id="caixa3">
+                        <form id="faixaetaria">
+                            <div class="legend">
+                                <b>
+                                    <legend>Faixa etária</legend>
+                                </b>
+                            </div>
+
+                            <div class="itens">
+                                <input type="radio" name="idade" id="ate20"> 20 anos <br>
+                                <input type="radio" name="idade" id="mais40ate50"> mais de 20 até 30 anos <br>
+                                <input type="radio" name="idade" id="mais20ate30"> mais de 30 até 40 anos <br>
+                            </div>
+                            <br>
+                            <div class="itens2">
+                                <input type="radio" name="idade" id="mais50ate60"> mais de 40 até 50 anos <br>
+                                <input type="radio" name="idade" id="mais30ate40"> mais de 50 até 60 anos <br>
+                                <input type="radio" name="idade" id="mais60"> mais de 60 <br>
+                            </div>
+                        </form>
+                        <img id="bal" src="img/imagem_2023-10-03_212131106-removebg-preview.png" style="opacity:0.4;filter:alpha(opacity=40);">
+                    </div>
+
+                    <div id="caixa4">
+                        <form id="caixaesporte">
+                            <div class="legend">
+                                <b>
+                                    <legend>Esportes que pratica</legend>
+                                </b>
+                            </div>
+
+                            <div class="cbox">
+                                <input type="checkbox"> Futebol de campo<br>
+                                <input type="checkbox"> Futebol de salão<br>
+                                <input type="checkbox"> Futebol society<br>
+                                <input type="checkbox"> Volley de quadra<br>
+                                <input type="checkbox"> Volley de praia<br>
+                                <input type="checkbox"> Natação em piscina<br>
+                                <input type="checkbox"> Natação em mar aberto<br>
+                            </div>
+                        </form>
+                        <img id="mulher" src="img/imagem_2023-10-03_211931935-removebg-preview.png" style="opacity:0.4;filter:alpha(opacity=40);">
+                    </div>
+                </form>
+            </div>
+
+            <div id="caixa5">
+                <form id="comm">
+                    <div class="legend">
+                        <b>
+                            <legend>Comentário</legend>
+                        </b>
+                    </div>
+                    
+                    <div class="comentario">
+                        Mensagem: <br>
+                        <textarea name="comentário" id="comment" cols="30" rows="10"></textarea>
+                    </div>
+                </form>
+                <img id="gente" src="img/imagem_2023-10-03_211751977-removebg-preview.png" style="opacity:0.4;filter:alpha(opacity=40);">
+            </div>
+
+            <input type="submit" value="Enviar" class="botoes">
+            <input type="reset" value="Limpar" class="botoes">
+            
+        </div>
+    </div>
+</body>
+
+</html>
